@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1035359760602-ijmo0roag01ee674607sivkvmfjt9lfa.apps.googleusercontent.com</string>
+	<string>1035359760602-j5b4227crnbdvj15f28uq0j8og16ua3s.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1035359760602-ijmo0roag01ee674607sivkvmfjt9lfa</string>
+	<string>com.googleusercontent.apps.1035359760602-j5b4227crnbdvj15f28uq0j8og16ua3s</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDUM1XeBUt69HdpECEG3I5MYo6ZkE5-f64</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.alvin.FoodDetectAppGusto</string>
+	<string>com.alvin.FoodDetectApp</string>
 	<key>PROJECT_ID</key>
 	<string>iotarduinoproj</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1035359760602:ios:5ad2461de579b8ca9eb5e3</string>
+	<string>1:1035359760602:ios:90ff5cec33724cd89eb5e3</string>
 	<key>DATABASE_URL</key>
 	<string>https://iotarduinoproj-default-rtdb.firebaseio.com</string>
 </dict>

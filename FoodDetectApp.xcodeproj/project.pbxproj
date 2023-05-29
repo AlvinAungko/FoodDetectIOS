@@ -22,7 +22,7 @@
 		E1343F1C2A1E3EB500C127D8 /* extension+NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1343F1B2A1E3EB500C127D8 /* extension+NSObject.swift */; };
 		E1343F1E2A1E41A400C127D8 /* extension+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1343F1D2A1E41A400C127D8 /* extension+UITableView.swift */; };
 		E1343F202A1E43C900C127D8 /* ProgressBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1343F1F2A1E43C900C127D8 /* ProgressBarView.xib */; };
-		E1AFE4C62A1CFA4E00FD3AF3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE4C52A1CFA4E00FD3AF3 /* GoogleService-Info.plist */; };
+		E1AFE4C62A1CFA4E00FD3AF3 /* GoogleService-Info-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE4C52A1CFA4E00FD3AF3 /* GoogleService-Info-Dev.plist */; };
 		E1AFE4C82A1CFE1B00FD3AF3 /* FirebaseDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AFE4C72A1CFE1B00FD3AF3 /* FirebaseDataManager.swift */; };
 		E1AFE4CD2A1D067F00FD3AF3 /* FoodStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AFE4CB2A1D067F00FD3AF3 /* FoodStatusCell.swift */; };
 		E1AFE4CE2A1D067F00FD3AF3 /* FoodStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AFE4CC2A1D067F00FD3AF3 /* FoodStatusCell.xib */; };
@@ -35,6 +35,7 @@
 		E1CD1AAA2A1CE09A000061A9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E1CD1AA92A1CE09A000061A9 /* Lottie */; };
 		E1CD1AAC2A1CE0B4000061A9 /* BadStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = E1CD1AAB2A1CE0B4000061A9 /* BadStatus.json */; };
 		E1CD1AAE2A1CE0E5000061A9 /* GoodStatus.json in Resources */ = {isa = PBXBuildFile; fileRef = E1CD1AAD2A1CE0E5000061A9 /* GoodStatus.json */; };
+		E1D5D68D2A24E9690017D8AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1D5D68C2A24E9690017D8AE /* GoogleService-Info.plist */; };
 		E4BA414DCDAC9A008C31D1C7 /* Pods_FoodDetectApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B33C9F835919F3C2F450FDF /* Pods_FoodDetectApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +58,7 @@
 		E1343F1B2A1E3EB500C127D8 /* extension+NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+NSObject.swift"; sourceTree = "<group>"; };
 		E1343F1D2A1E41A400C127D8 /* extension+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+UITableView.swift"; sourceTree = "<group>"; };
 		E1343F1F2A1E43C900C127D8 /* ProgressBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressBarView.xib; sourceTree = "<group>"; };
-		E1AFE4C52A1CFA4E00FD3AF3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1AFE4C52A1CFA4E00FD3AF3 /* GoogleService-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Dev.plist"; sourceTree = "<group>"; };
 		E1AFE4C72A1CFE1B00FD3AF3 /* FirebaseDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDataManager.swift; sourceTree = "<group>"; };
 		E1AFE4CB2A1D067F00FD3AF3 /* FoodStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStatusCell.swift; sourceTree = "<group>"; };
 		E1AFE4CC2A1D067F00FD3AF3 /* FoodStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodStatusCell.xib; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		E1CD1AA22A1CDC9B000061A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1CD1AAB2A1CE0B4000061A9 /* BadStatus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BadStatus.json; sourceTree = "<group>"; };
 		E1CD1AAD2A1CE0E5000061A9 /* GoodStatus.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GoodStatus.json; sourceTree = "<group>"; };
+		E1D5D68C2A24E9690017D8AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,7 +208,8 @@
 				E1343F042A1E000400C127D8 /* Model */,
 				E1AFE4CA2A1D05BC00FD3AF3 /* HomePage */,
 				E1CD1A9A2A1CDC99000061A9 /* Main.storyboard */,
-				E1AFE4C52A1CFA4E00FD3AF3 /* GoogleService-Info.plist */,
+				E1D5D68C2A24E9690017D8AE /* GoogleService-Info.plist */,
+				E1AFE4C52A1CFA4E00FD3AF3 /* GoogleService-Info-Dev.plist */,
 				E1CD1AAF2A1CE0EE000061A9 /* Supporting Files */,
 				E1CD1A9F2A1CDC9B000061A9 /* LaunchScreen.storyboard */,
 				E1CD1AA22A1CDC9B000061A9 /* Info.plist */,
@@ -295,12 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1CD1AAE2A1CE0E5000061A9 /* GoodStatus.json in Resources */,
-				E1AFE4C62A1CFA4E00FD3AF3 /* GoogleService-Info.plist in Resources */,
+				E1AFE4C62A1CFA4E00FD3AF3 /* GoogleService-Info-Dev.plist in Resources */,
 				E1CD1AAC2A1CE0B4000061A9 /* BadStatus.json in Resources */,
 				E1343F0B2A1E37A600C127D8 /* DetailViewController.xib in Resources */,
 				E1343F142A1E390500C127D8 /* DetailInfoCell.xib in Resources */,
 				E1CD1AA12A1CDC9B000061A9 /* LaunchScreen.storyboard in Resources */,
 				E1CD1A9E2A1CDC9B000061A9 /* Assets.xcassets in Resources */,
+				E1D5D68D2A24E9690017D8AE /* GoogleService-Info.plist in Resources */,
 				E1343F102A1E383F00C127D8 /* DetailFoodStatusInfoCell.xib in Resources */,
 				E10BED952A246C0E00245B27 /* NotFound.json in Resources */,
 				E1343F202A1E43C900C127D8 /* ProgressBarView.xib in Resources */,
@@ -562,7 +566,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.FoodDetectApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvin.FoodDetectAppGusto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
