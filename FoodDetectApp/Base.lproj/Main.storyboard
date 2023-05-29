@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodDetectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lkN-iU-0jT">
+                                <rect key="frame" x="0.0" y="77" width="390" height="733"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H9q-5W-4ml" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="70" y="297" width="250" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="8eF-1l-JOp"/>
+                                    <constraint firstAttribute="height" constant="250" id="m0j-j8-yQ9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="NotFound"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wC8-h0-wSm">
+                                <rect key="frame" x="88.333333333333329" y="557" width="213.33333333333337" height="40.666666666666629"/>
+                                <string key="text">Sensor is still Processing, 
+Please Wait</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lkN-iU-0jT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Uj-r3-3X7"/>
+                            <constraint firstItem="lkN-iU-0jT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="8CW-yh-ODr"/>
+                            <constraint firstItem="wC8-h0-wSm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eXf-oH-R6H"/>
+                            <constraint firstItem="wC8-h0-wSm" firstAttribute="top" secondItem="H9q-5W-4ml" secondAttribute="bottom" constant="10" id="foX-1O-TJg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lkN-iU-0jT" secondAttribute="trailing" id="gjX-Sz-w8r"/>
+                            <constraint firstItem="H9q-5W-4ml" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jlj-ek-ZgE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lkN-iU-0jT" secondAttribute="bottom" id="pgq-uI-Tz3"/>
+                            <constraint firstItem="H9q-5W-4ml" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tZ4-6E-vVs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JEJ-HK-GVq"/>
+                    <connections>
+                        <outlet property="inProgressLabel" destination="wC8-h0-wSm" id="7mo-Kw-q1R"/>
+                        <outlet property="inProgressView" destination="H9q-5W-4ml" id="rEe-pR-zum"/>
+                        <outlet property="tableView" destination="lkN-iU-0jT" id="vqQ-el-ZPe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996.9230769230769" y="-2.1327014218009479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
